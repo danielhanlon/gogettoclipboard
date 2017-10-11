@@ -6,7 +6,7 @@ import (
 )
 
 func main() {
-	myString := "vim-go"
+	myString := "vim\tgo\thow\nare\tyou\ttoday"
 	fmt.Println(myString)
 	if err := clipboard.WriteAll(myString); err != nil {
 		panic(err)

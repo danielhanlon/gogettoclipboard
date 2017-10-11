@@ -1,0 +1,2 @@
+Using https://godoc.org/github.com/atotto/clipboard
+GOOS=windows GOARCH=386 go build 
